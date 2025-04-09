@@ -1,9 +1,13 @@
-# Created by venv; see https://docs.python.org/3/library/venv.html
+# Ignore everything
 *
-# Ignore Python virtual environment and cache
-venv/
-__pycache__/
-*.pyc
 
-# Allow tracking this file itself
+# But not these specific project files
 !.gitignore
+!requirements.txt
+!README.md
+!main.py
+!tools.py
+!research_output.txt
+!health_summary.html
+!health_summary.pdf
+!.env
